@@ -4,14 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DSC-Benedict College</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/home-page-styling.css">
     
 </head>
 
 <body>
-    <img src="./assets/IMG_1096.JPG" alt="DSC-Benedict Logo" width="220" height="220"> 
-    <a href="./about-page/about-page.html">About Us</a>
-    <a href="./project-page/project-page.html">Project Page</a>
+    <div class="navigation-bar">
+        <div class="container">
+            <div class="logo">
+                <img src="./assets/IMG_1096.JPG" alt="DSC-Benedict Logo" class="logo">
+            </div>
+    
+            <div class="navigation-links">
+                <ul class="menu">
+                    <li><a href="./about-page/about-page.html"></a>About Us</li>
+                    <li><a href="./project-page/project-page.html"></a>Project Page</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
     <h1>Developer Student Club</h1>
     <h1>Benedict College </h1>
@@ -24,19 +36,35 @@
     <!-- Probably add "Become a member section." -->
 
     <!-- Footer -->
-    <img src="./assets/IMG_1096.JPG" alt="DSC-Benedict Logo" width="120" height="120">
-    <h3>Programs</h3>
-    <p>Google Developers Experts</p>
-    <p>Google Developers Groups</p>
+    <footer>
+        <div class="footer-wrap">
+            <!-- <div class="footer-contact"></div> -->
+            <div class="footer-lists">
+            
+                <h4>Programs</h4>
+                <ul>
+                    <li><a href="#">Google Developers Expert</a></li>
+                    <li><a href="#">Google Developers Groups</a></li>
+                </ul>
+            </div>
+            <div class="footer-lists">
+                <h4>Developers</h4>
+                <ul>
+                    <li><a href="#">Firebase Console</a></li>
+                    <li><a href="#">Google Cloud Platform</a></li>
+                    <li><a href="#">Actions on Google</a></li>
+                </ul>
+            </div>
+            <div class="footer-lists">
+                <h4>Contribute</h4>
+                <ul>
+                    <li><a href="#">File a bug</a></li>
+                    <li><a href="#">View Source</a></li>   
+                </ul>
+            </div>
+        </div>
 
-    <h3>Programs</h3>
-    <p>Firebase Console</p>
-    <p>Google Cloud Platform</p>
-    <p>Actions on Google</p>
-
-    <h3>Contribute</h3>
-    <p>File a bug</p>
-    <p>View Source</p>
+    </footer>
 
 
 </body>
